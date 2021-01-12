@@ -1,0 +1,152 @@
+@import "var";
+
+*{
+    font-family: 'Museo Sans Cyrl';
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.promo{
+    padding: 21px 0 90px 0;
+    background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
+    &__wrapper{
+        display: flex;
+        flex-direction:column;
+        align-items: flex-end;
+    }
+
+    &__header{
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 42px;
+        color: #fff;
+        margin-top: 86px;
+    }
+
+    &__subheader{
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 10px;
+    }
+    &__icons{
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+
+    }
+    &__icon{
+        width: 108px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        color: #fff;
+        text-align: center;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__link{
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 18px;
+        a{
+            color: #fff;
+            text-transform: uppercase;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        width: 250px;
+        img{
+            width: 100%;
+            
+        }
+    }
+
+    &__official{
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        span{
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__phone{
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        &:hover{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+}
+
+.advant{
+    padding: 68px 0 79px 0;
+    background-color: #f6f6f6;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 67px;
+    }
+
+    &__icon{
+        height: 60px;
+    }
+
+    &__items{
+        width: 239px;
+        text-align: center;
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 17px;
+            margin-top: 18px;
+            span{
+                text-transform: uppercase;
+                color: $main_color;
+            }
+        }
+    }
+}
+
+
+
+@import "media";

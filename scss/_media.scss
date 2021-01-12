@@ -1,0 +1,161 @@
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 741px;
+    }
+
+    .promo{
+        &__header{
+            font-size: 39px;
+            margin-top: 70px;
+        }
+        &__subheader{
+            font-size: 22px;
+            margin-top: 2px;
+        }
+        &__icons{
+            margin-top: 50px;
+        }
+
+        .button_main{
+            margin-top: 55px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        padding: 0 10px;
+    }
+    .header{
+        &__logo{
+            width: 210px;
+        }
+        &__official{
+            font-size: 10px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+
+    .button{
+        padding: 7px 15px;
+    }
+
+    .promo{
+        padding-bottom: 50px;
+        &__header{
+            font-size: 32px;
+            line-height: 32px;
+            margin-top:53px;
+        }
+
+        &__subheader{
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        &__icons{
+            margin-top: 35px;
+            width: 389px;
+        }
+        
+        .button_main{
+            margin-top: 40px;
+            font-size: 15px;
+        }
+
+        &__link{
+            margin-top: 5px;
+        }
+    }
+
+    .advant{
+        &__wrapper{
+            margin-top: 47px;
+        }
+        &__items{
+            width: 175px;
+            h3{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 574px){
+    .header{
+        flex-direction: column;
+        &__official{
+            display: none;
+        }
+        &__contacts{
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px;
+        }
+        &__phone{
+            font-size: 14px;
+            margin-right: 7px;
+        }
+    }
+
+    .promo{
+        &__header{
+            font-size: 30px;
+            text-align: center;
+            margin-top: 38px;
+        }
+
+        &__wrapper{
+            align-items:center;
+        }
+
+        &__subheader{
+            font-size: 16px;
+            text-align: center;
+        }
+
+        &__icons{
+            width: 300px;
+        }
+
+        &__icon{
+            font-size: 12px;
+        }
+        &__link{
+            margin: 5px auto;
+        }
+
+        .button_main{
+            margin: 30px auto 0 auto;
+        }
+    }
+
+    .advant{
+        padding: 45px 0 60px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__items{
+            h3{
+                margin-top: 8px;
+            }
+            p{
+                margin-top: 5px;
+            }
+            
+        }
+    }
+}
