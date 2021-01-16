@@ -24,6 +24,11 @@
             margin-top: 55px;
         }
     }
+    .consult{
+        .descr{
+            margin-top: 48px;
+        }
+    }
 }
 
 @media (max-width: 767px){
@@ -47,6 +52,9 @@
 
     .button{
         padding: 7px 15px;
+        &_submit{
+            padding: 20px 40px;
+        }
     }
 
     .promo{
@@ -156,6 +164,15 @@
                 margin-top: 5px;
             }
             
+        }
+    }
+
+    .consult{
+        padding: 68px 0 68px 0;
+        .descr{
+            font-size: 18px;
+            text-align: center;
+            margin-top: 28px;
         }
     }
 }
